@@ -14,8 +14,8 @@ namespace CRUDblazor.Shared
         
         public string FirstName { get; set; } = string.Empty;
         public string LastName { get; set; } = string.Empty;
-        public string HeroName { get; s set; } = string.Empty;
-        public Comic Comic { get; set; }
+        public string HeroName { get; set; } = string.Empty;
+        public Comic? Comic { get; set; }
         public int ComicId { get; set; }
         
     }
