@@ -3,11 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32819.101
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDblazor.Server", "CRUDblazor\Server\CRUDblazor.Server.csproj", "{8002E9CB-D03C-445F-A58E-82A3AEBED325}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUDblazor.Server", "CRUDblazor\Server\CRUDblazor.Server.csproj", "{8002E9CB-D03C-445F-A58E-82A3AEBED325}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDblazor.Client", "CRUDblazor\Client\CRUDblazor.Client.csproj", "{EAD1F337-6208-4C67-8C08-BDC061C9D11A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUDblazor.Client", "CRUDblazor\Client\CRUDblazor.Client.csproj", "{EAD1F337-6208-4C67-8C08-BDC061C9D11A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CRUDblazor.Shared", "CRUDblazor\Shared\CRUDblazor.Shared.csproj", "{2584DCA9-8E9B-4459-B19C-AB92C7DFFAEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CRUDblazor.Shared", "CRUDblazor\Shared\CRUDblazor.Shared.csproj", "{2584DCA9-8E9B-4459-B19C-AB92C7DFFAEA}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
