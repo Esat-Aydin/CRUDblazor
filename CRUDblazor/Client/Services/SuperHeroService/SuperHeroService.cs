@@ -27,7 +27,7 @@ namespace CRUDblazor.Client.Services.SuperHeroService
 
         public async Task GetSuperHeroes()
         {
-            var result = await _http.GetFromJsonAsync<List<SuperHero>>("api/superheroes");
+            var result = await _http.GetFromJsonAsync<List<SuperHero>>("api/superhero");
             if(result != null)
             {
                 Heroes = result;
