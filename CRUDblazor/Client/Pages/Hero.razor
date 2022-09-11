@@ -1,6 +1,8 @@
 ﻿@page "/hero"
 @page "/hero/{Id:int}"
+@using CRUDblazor.Shared
 @inject ISuperHeroService SuperHeroService
+using CRUDblazor.Shared.SuperHero
 
 @if( Id == null){
     <PageTitle>Create a new Super Hero</PageTitle>
