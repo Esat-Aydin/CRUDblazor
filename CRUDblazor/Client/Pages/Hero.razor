@@ -1,0 +1,20 @@
+﻿@page "/hero"
+@page "/hero/{Id:int}"
+@inject ISuperHeroService SuperHeroService
+
+@if( Id == null){
+    <PageTitle>Create a new Super Hero</PageTitle>
+    <h3>Create a new Super Hero</h3>
+}
+else{
+    <PageTitle>Edit @hero.HeroName</PageTitle>
+    <h3>Edit @hero.HeroName</h3>
+}
+
+@code {
+    [Parameter]
+    public int? Id { get; set; }
+
+    var
+    
+}
