@@ -1,5 +1,6 @@
 global using CRUDblazor.Client.Services.SuperHeroService;
-global using CRUDblazor.Client;
+global using CRUDblazor.Shared;
+using CRUDblazor.Client;
 using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 

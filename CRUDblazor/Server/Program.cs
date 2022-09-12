@@ -1,6 +1,6 @@
 global using CRUDblazor.Shared;
+global using CRUDblazor.Server.Data;
 global using Microsoft.EntityFrameworkCore;
-using CRUDblazor.Server.Data;
 using Microsoft.AspNetCore.ResponseCompression;
 
 var builder = WebApplication.CreateBuilder(args);

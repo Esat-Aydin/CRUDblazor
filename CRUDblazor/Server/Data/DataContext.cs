@@ -29,7 +29,7 @@ namespace CRUDblazor.Server.Data
             new SuperHero
             {
                 Id = 2,
-                FirstName = "Bruce",
+                FirstName = "Bruce123",
                 LastName = "Wayne",
                 HeroName = "Batman",
                 ComicId = 2,
