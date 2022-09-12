@@ -12,7 +12,7 @@ else{
     <h3>Edit @hero.HeroName</h3>
 }
 
-<EditForm Model="hero" OnSubmit="HandleSumbit">
+<EditForm Model="hero" OnSubmit="HandleSubmit">
     <div>
         <label for="firstname">First Name</label>
         <InputText id="firstname" @bind-Value="hero.FirstName" class="form-control"></InputText>
